@@ -58,7 +58,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #757575;
   text-align: left;
   background-color: #fff;
@@ -1828,13 +1828,24 @@ pre code {
 }
 
 @media (max-width: 575.98px) {
+  .col-lg-3{
+    width: 80%;
+  }
+
+  .p-l{
+    font-size: 1.2rem;
+  }
+
   .mb-5{
-    font-size: 30px;
-    padding: 25px;
+    font-size: 1.4rem;
+  }
+
+  .mb-4{
+    font-size: 1.2rem;
   }
 
   .m-0{
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 300;
   }
   .table-responsive-sm {
