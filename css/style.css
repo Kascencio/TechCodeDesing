@@ -313,6 +313,29 @@ legend {
   white-space: normal;
 }
 
+.carrousel{
+  width: 100%;
+  margin-top: 40px;
+  height: 160px;
+  overflow: hidden;
+}
+
+.carrousel-items{
+  width: 35vh;
+  height: 20vh;
+  padding: 20px;
+}
+
+.carrousel .carrousel-content{
+  display: flex;
+  animation: scrolling 30s linear infinite;
+}
+
+@keyframes scrolling {
+  0%{transform: translateX(0);}
+  100%{ transform: translateX(-100%);}
+}
+
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
