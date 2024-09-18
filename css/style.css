@@ -1880,6 +1880,23 @@ pre code {
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
+
+  .carrousel{
+    width: 99%;
+    margin-top: 45px;
+    height: 170px;
+  }
+
+  .carrousel-items{
+    width: 16vh;
+    height: 10vh;
+    padding: 0px;
+    margin-right: 4vh;
+  }
+
+  .carrousel .carrousel-content{
+    animation: scrolling 20s linear infinite;
+  }
 }
 
 @media (max-width: 767.98px) {
