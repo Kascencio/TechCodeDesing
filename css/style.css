@@ -1884,11 +1884,11 @@ pre code {
   .carrousel{
     width: 99%;
     margin-top: 45px;
-    height: 170px;
+    height: 130px;
   }
 
   .carrousel-items{
-    width: 16vh;
+    width: 17vh;
     height: 10vh;
     padding: 0px;
     margin-right: 4vh;
