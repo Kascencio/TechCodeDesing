@@ -400,6 +400,14 @@ h1, .h1 {
   height: 8vh;
 }
 
+.card-design{
+  height: 10vh;
+  width: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 1200px) {
   h1, .h1 {
     font-size: calc(1.375rem + 1.5vw) ;
@@ -410,6 +418,11 @@ h1, .h1 {
     height: 4vh;
     margin-left: 3vh;
     margin-right: 3vh;
+  }
+
+  .card-design{
+    height: 10vh;
+    width: 25vh;
   }
 }
 
@@ -449,6 +462,10 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem;
+}
+
+.text-design{
+  font-size: 1.5rem ;
 }
 
 .lead {
@@ -663,14 +680,16 @@ pre code {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1040px;
   }
+
+  .container-design{
+    height: 60vh;
+  }
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-right: -20px;
-  margin-left: -20px;
 }
 
 .no-gutters {
@@ -1882,7 +1901,7 @@ pre code {
   }
 
   .carrousel{
-    width: 99%;
+    width: 98%;
     margin-top: 45px;
     height: 130px;
   }
@@ -1897,6 +1916,11 @@ pre code {
   .carrousel .carrousel-content{
     animation: scrolling 20s linear infinite;
   }
+
+  .container-design{
+    height: 70vh;
+  }
+
 }
 
 @media (max-width: 767.98px) {
@@ -2390,6 +2414,7 @@ textarea.form-control {
   .form-inline .custom-control-label {
     margin-bottom: 0;
   }
+
 }
 
 .btn {
@@ -7631,7 +7656,7 @@ button.bg-dark:focus {
 }
 
 .p-4 {
-  padding: 1.2rem !important;
+  padding: 1rem !important;
 }
 
 .pt-4,
