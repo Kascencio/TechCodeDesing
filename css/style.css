@@ -4181,11 +4181,25 @@ input[type="button"].btn-block {
   background-size: 100% 100%;
 }
 
+.bi-whatsapp{
+  margin-right: 10px;
+}
+
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .btn-a{
+    width:27vh;
+  }
+
+  .bi-whatsapp{
+    margin-right: 1px;
+    width:10px;
+    height:16px;
   }
 }
 
@@ -5191,6 +5205,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     margin-left: -1px;
     border-left-width: 1px;
   }
+
 }
 
 @media (min-width: 768px) {
