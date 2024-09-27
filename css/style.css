@@ -658,16 +658,55 @@ pre code {
   margin-left: auto;
 }
 
+.bi-whatsapp{
+  margin-right: 10px;
+}
+
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 540px;
   }
+  
+}
+
+.button_container{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 340px) {
+  .button_container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bi-whatsapp{
+    margin-right: 10px;
+  }
+
+  .btn-a{
+    margin-top: 2vh;
+    width: 33vh;
+    margin-right: 20px;
+  }
+
+  .btn-a-a{
+    width: 33vh;
+  }
+
+  .p-5-3 p{ 
+    width: 100%;
+    text-align: left;
+  }
+
 }
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
     max-width: 720px;
   }
+
 }
 
 @media (min-width: 992px) {
@@ -4181,25 +4220,12 @@ input[type="button"].btn-block {
   background-size: 100% 100%;
 }
 
-.bi-whatsapp{
-  margin-right: 10px;
-}
 
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl {
     padding-right: 0;
     padding-left: 0;
-  }
-
-  .btn-a{
-    width:27vh;
-  }
-
-  .bi-whatsapp{
-    margin-right: 1px;
-    width:10px;
-    height:16px;
   }
 }
 
