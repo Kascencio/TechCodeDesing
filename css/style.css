@@ -674,7 +674,7 @@ pre code {
   flex-direction: row;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 450px) {
   .button_container{
     flex-direction: column;
     justify-content: center;
