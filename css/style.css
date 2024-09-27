@@ -402,7 +402,7 @@ h1, .h1 {
 
 .card-design{
   height: 10vh;
-  width: 30vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -422,7 +422,7 @@ h1, .h1 {
 
   .card-design{
     height: 10vh;
-    width: 25vh;
+    width: 100%;
   }
 }
 
@@ -1957,7 +1957,7 @@ pre code {
   }
 
   .container-design{
-    height: 70vh;
+    height: 100vh;
   }
 
 }
